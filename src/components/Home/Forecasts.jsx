@@ -20,7 +20,7 @@ function Forecasts(props) {
               <span className="d-block">Temperature:</span> {props.minTemp}-{props.maxTemp}°C
             </Card.Text>
           </div>
-          <img className="weatherImg" src={props.weatherImg} />
+          <img className="weatherImg" src={props.weatherImg} alt={props.weatherType} />
         </div>
       </Card.Body>
     </Card>
